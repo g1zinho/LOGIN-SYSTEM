@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "poppins", sans-serif;
-  background-image: linear-gradient(45deg, #6589ff, #ffa8f3);
+  background-image: linear-gradient(45deg, #6589ff, #8b33ff);
 }
 
 input {

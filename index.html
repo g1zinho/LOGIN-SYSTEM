@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-style.css" />
+    <title>To Do List</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="registration.html" class="register-button"> Register </a>
+
+
+        <h2>To-Do List</h2>
+        <button class="reset-button" type="submit" onClick="refreshPage()">Refresh Button</button>
+        <br> <br> <br>
+
+        <input class="task-holder" type="text" id="taskInput" placeholder="Enter a new task">
+        <button class="add-button" onclick="addTask()">></button>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="index-script.js"></script>
+
+    </div>
+</body>
+</html>
