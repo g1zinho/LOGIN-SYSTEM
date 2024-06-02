@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    animation: backgroundAnimation 10s infinite alternate;
+    animation: backgroundAnimation 5s infinite alternate;
 }
 
 @keyframes backgroundAnimation {
     0% { background-color: #6589ff; }
-    50% { background-color: #8b33ff; }
-    100% { background-color: #9365ff; }
+    50% { background-color: #c165ff; }
+    100% { background-color: #8b33ff; }
+   
 }
 
 .container {
@@ -24,7 +25,8 @@ body {
 
     text-align: center;
     background-color: #ffffff70;
-    color: rgb(0, 0, 0);
+
+    
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 12px;
