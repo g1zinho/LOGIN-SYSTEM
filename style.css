@@ -5,14 +5,18 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  animation: backgroundAnimation 5s infinite alternate;
 }
 
 @keyframes backgroundAnimation {
-  0% { background-color: #6589ff; }
-  50% { background-color: #c165ff; }
-  100% { background-color: #8b33ff; }
- 
+  0% {
+    background-color: #6589ff;
+  }
+  50% {
+    background-color: #c165ff;
+  }
+  100% {
+    background-color: #8b33ff;
+  }
 }
 body {
   height: 100vh;
@@ -20,6 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "poppins", sans-serif;
+  animation: backgroundAnimation 5s infinite alternate;
 }
 
 input {

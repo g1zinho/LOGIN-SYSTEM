@@ -4,75 +4,60 @@
   margin: 0;
   padding: 0;
   font-family: "poppins", sans-serif;
-  animation: backgroundAnimation 5s infinite;
 }
 
 @keyframes backgroundAnimation {
   0% {
-    background-color: #6589ff;
+    background-color: #8fa9ff;
   }
 
   50% {
-    background-color: #c165ff;
+    background-color: rgb(228, 187, 255);
   }
 
   75% {
-    background-color: #8b33ff;
+    background-color: #fff4dd;
   }
 
   100% {
-    background-color: #6589ff;
+    background-color: #8fa9ff;
   }
 }
 
-
-
 .container {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   padding: 20px;
   color: #ffffff;
+  background-color: #3f3f3fc7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
-
 
 input {
   width: 100%;
-  padding: 15px;
   border: none;
   outline: none;
   font-size: 20px;
   border-radius: 15px;
 }
 
-
-
 body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-.register-form {
-  color: rgba(red, green, blue, alpha);
-  margin: 0 0 15px;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
-
-
+  animation: backgroundAnimation 5s infinite;
 }
 
 input {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #414141;
+  border: 1px solid #ffffff;
   outline: none;
-  border-radius: 18px;
+  border-radius: 15px;
 }
 
 h2 {

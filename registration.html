@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="registration-style.css" />
-  <title>Registration Page</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registration-style.css" />
+    <title>Registration Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="register-form" id="registrationForm">
+        <h2>Registration</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required="" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+        <label for="password">Confirm Password</label>
+        <input type="password" id="password" name="password" required />
+        <a href="tela-de-login.html" class="register-button">
+          Confrim Registration
+        </a>
+      </form>
+    </div>
 
-</head>
-<body>
-
-<div class="container">
-
-  
-  <form class="register-form" id="registrationForm">
-    <h2>Registration</h2>
-    <label for="username">Username</label>
-    <input type="text" id="username" name="username" required>
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
-    <label for="password">Password</label>
-    <input type="password" id="password" name="password" required>
-    <label for="password">Confirm Password</label>
-    <input type="password" id="password" name="password" required>
-    <a href="tela-de-login.html" class="register-button"> Confrim Registration </a>
-  </form>
-</div>
-
-<script>
-  document.getElementById("registrationForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-    var username = document.getElementById("username").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    // Here you can add your JavaScript code to handle form submission, like sending data to a server
-    console.log("Username: " + username);
-    console.log("Email: " + email);
-    console.log("Password: " + password);
-    // For now, let's just log the values to the console
-  });
-</script>
-
-</body>
+    <script>
+      document
+        .getElementById("registrationForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          var username = document.getElementById("username").value;
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+          // Here you can add your JavaScript code to handle form submission, like sending data to a server
+          console.log("Username: " + username);
+          console.log("Email: " + email);
+          console.log("Password: " + password);
+          // For now, let's just log the values to the console
+        });
+    </script>
+  </body>
 </html>
