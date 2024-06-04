@@ -48,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   animation: backgroundAnimation 5s infinite;
+  
 }
 
 input {
